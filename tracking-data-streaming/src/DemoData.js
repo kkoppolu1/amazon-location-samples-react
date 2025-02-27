@@ -6,56 +6,56 @@ export const POSITION_UPDATES_TRUCK_1 = [
     {
         Data: {
             DeviceId: "Truck-1",
-            Position: [-122.329640, 47.550247],
+            Position: [-122.03573526666666, 37.41187446666667],
         },
         PartitionKey: "1"
     },
     {
         Data: {
             DeviceId: "Truck-1",
-            Position: [-122.329608, 47.548651],
+            Position: [-122.03573626666666, 37.41187446666667],
         },
         PartitionKey: "2"
     },
     {
         Data: {
             DeviceId: "Truck-1",
-            Position: [-122.329592, 47.546398],
+            Position: [-122.03573726666666, 37.41187446666667],
         },
         PartitionKey: "2"
     },
     {
         Data: {
             DeviceId: "Truck-1",
-            Position: [-122.329654, 47.545014],
+            Position: [-122.03573826666666, 37.41187446666667],
         },
         PartitionKey: "2"
     },
     {
         Data: {
             DeviceId: "Truck-1",
-            Position: [-122.329586, 47.544046],
+            Position: [-122.03573926666666, 37.41187446666667],
         },
         PartitionKey: "3"
     },
     {
         Data: {
             DeviceId: "Truck-1",
-            Position: [-122.328683, 47.543379],
+            Position: [-122.03573926666666, 37.41187446666667],
         },
         PartitionKey: "2"
     },
     {
         Data: {
             DeviceId: "Truck-1",
-            Position: [-122.328889, 47.543028],
+            Position: [-122.03573926666666, 37.41187446666667],
         },
         PartitionKey: "2"
     },
     {
         Data: {
             DeviceId: "Truck-1",
-            Position: [-122.328417, 47.543341],
+            Position: [-122.03573926666666, 37.41187446666667],
         },
         PartitionKey: "2"
     }
@@ -65,56 +65,56 @@ export const POSITION_UPDATES_TRUCK_2 = [
     {
         Data: {
             DeviceId: "Truck-2",
-            Position: [-122.322219, 47.545143],
+            Position: [-122.03573526666666, 37.41187446666667],
         },
         PartitionKey: "3"
     },
     {
         Data: {
             DeviceId: "Truck-2",
-            Position: [-122.322891, 47.543234],
+            Position: [-122.03573626666666, 37.41187446666667],
         },
         PartitionKey: "3"
     },
     {
         Data: {
             DeviceId: "Truck-2",
-            Position: [-122.323321, 47.541726],
+            Position: [-122.03573726666666, 37.41187446666667],
         },
         PartitionKey: "2"
     },
     {
         Data: {
             DeviceId: "Truck-2",
-            Position: [-122.323784, 47.540603],
+            Position: [-122.03673826666666, 37.41187446666667],
         },
         PartitionKey: "1"
     },
     {
         Data: {
             DeviceId: "Truck-2",
-            Position: [-122.324112, 47.540823],
+            Position: [-122.03773926666666, 37.41187446666667],
         },
         PartitionKey: "2"
     },
     {
         Data: {
             DeviceId: "Truck-2",
-            Position: [-122.326810, 47.542322],
+            Position: [-122.03873926666666, 37.41187446666667],
         },
         PartitionKey: "3"
     },
     {
         Data: {
             DeviceId: "Truck-2",
-            Position: [-122.327667, 47.542306],
+            Position: [-122.03973926666666, 37.41187446666667],
         },
         PartitionKey: "3"
     },
     {
         Data: {
             DeviceId: "Truck-2",
-            Position: [-122.326375, 47.542144],
+            Position: [-122.04073926666666, 37.41187446666667],
         },
         PartitionKey: "3"
     }
@@ -122,33 +122,12 @@ export const POSITION_UPDATES_TRUCK_2 = [
 
 export const DEMO_GEOFENCES = [
     {
-        "GeofenceId": "Warehouse",
+        "GeofenceId": "Parking",
         "Polygon": [
-            [-122.329736, 47.543216],
-            [-122.328513, 47.542365],
-            [-122.327278, 47.541601],
-            [-122.326672, 47.541613],
-            [-122.326415, 47.541739],
-            [-122.329429, 47.543460],
-            [-122.329736, 47.543216]
-        ]
-    },
-    {
-        "GeofenceId": "WarehouseVicinity-North",
-        "Polygon": [
-            [-122.331564, 47.544981],
-            [-122.329476, 47.543950],
-            [-122.329509, 47.545398],
-            [-122.331564, 47.544981]
-        ]
-    },
-    {
-        "GeofenceId": "WarehouseVicinity-South",
-        "Polygon": [
-            [-122.324886, 47.541209],
-            [-122.323688, 47.540418],
-            [-122.323353, 47.541535],
-            [-122.324886, 47.541209]
+            [-122.039, 37.541000],
+            [-122.039, 37.543000],
+            [-122.041, 37.541000],
+            [-122.041, 37.543000]
         ]
     }
 ]

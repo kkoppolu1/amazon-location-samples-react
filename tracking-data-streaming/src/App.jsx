@@ -127,8 +127,8 @@ const App = () => {
           id={MAP_CONTAINER}
           style={{ height: "100vh", width: "100vw" }}
           initialViewState={{
-            longitude: -122.329736,
-            latitude: 47.543216,
+            longitude: -122.03573526666666,
+            latitude: 37.41187446666667,
             zoom: 15,
           }}
           mapStyle={`https://maps.geo.${REGION}.amazonaws.com/v2/styles/${MAP.STYLE}/descriptor?key=${API_KEY}&color-scheme=${MAP.COLOR_SCHEME}`}
